@@ -1,0 +1,132 @@
+
+
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    color: #234b8c;
+    margin-top: 40px;
+}
+
+
+p {
+    color: #555555;
+    font-size: 16px;
+}
+
+
+.contenedor {
+    background-color: white;
+    width: 450px;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #333333;
+    font-size: 20px;
+}
+
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+button {
+    background-color: #234b8c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #173565;
+}
+
+
+#resultado {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.tarjeta {
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    overflow-wrap: anywhere;
+}
+
+.tarjeta h3 {
+    color: #234b8c;
+    margin-top: 0;
+}
+
+.tarjeta a {
+    color: #234b8c;
+    text-decoration: none;
+}
+
+.tarjeta a:hover {
+    text-decoration: underline;
+}
+
+.tarjeta p {
+    line-height: 1.5;
+}
+
+.estadisticas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+#mensaje {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.oculto {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+
+    .contenedor {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .estadisticas {
+        flex-direction: column;
+    }
+
+}

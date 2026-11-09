@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GitHub Random Repository</title>
+
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+
+<body>
+
+    <h1>GitHub Random Repository</h1>
+
+    <p>Encuentra repositorios aleatorios de GitHub.</p>
+
+    <div class="contenedor">
+
+        <h2>Selecciona un lenguaje</h2>
+
+        <select id="lenguaje">
+
+            <option value="">Selecciona un lenguaje</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="PHP">PHP</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="TypeScript">TypeScript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Go">Go</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Swift">Swift</option>
+
+        </select>
+
+        <button id="buscar">Buscar repositorio</button>
+
+        <p id="mensaje"></p>
+
+        <div id="resultado"></div>
+
+        <button id="refrescar" class="oculto">Refresh</button>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
